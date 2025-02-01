@@ -310,9 +310,9 @@ html {
     background-image: url("https://static-content.azuki.com/assets/a1.png"),
       url("https://static-content.azuki.com/assets/b1.png"),
       url("https://static-content.azuki.com/assets/stars.png");
-    background-position: right 30%, left 17%, 100% 40%;
+    background-position: right 13%, left 1%, 100% 40%;
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 600px auto, 600px auto, contain;
+    background-size: auto 50%, auto 50%, contain;
     background-color: #000;
     clip-path: ellipse(148% 70% at 91% -14%);
   }
