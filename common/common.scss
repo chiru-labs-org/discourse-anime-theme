@@ -307,11 +307,13 @@ html {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(
-      90deg,
-      var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
-    );
+    background-image: url("https://static-content.azuki.com/assets/a1.png"),
+      url("https://static-content.azuki.com/assets/b1.png"),
+      url("https://static-content.azuki.com/assets/stars.png");
+    background-position: right 26%, left 13%, 100% 25%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 600px auto, 600px auto, contain;
+    background-color: #000;
     clip-path: ellipse(148% 70% at 91% -14%);
   }
   body.no-ember .background-container {
