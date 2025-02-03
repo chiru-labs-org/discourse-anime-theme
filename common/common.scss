@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Slussen";
+  src: url($Slussen) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
@@ -5,12 +13,12 @@
   color: var(--secondary);
   h1 {
     text-align: center;
-    // font-family: Slussen;
-    font-size: 82px;
+    font-family: Slussen;
+    font-size: 72px;
     font-style: normal;
     font-weight: 200;
-    line-height: 140%;
-    letter-spacing: -4px;
+    line-height: 140%; /* 177.249px */
+    letter-spacing: -6px;
     background: var(
       --text-gradient,
       linear-gradient(94deg, #fff 36.21%, #ffd85a 110.37%)
@@ -23,10 +31,10 @@
     color: rgba(255, 246, 222, 0.5);
     text-align: center;
     font-family: Slussen;
-    font-size: 25px;
+    font-size: 21px;
     font-style: normal;
-    font-weight: 100;
-    line-height: 140%;
+    font-weight: 400;
+    line-height: 140%; /* 56px */
     letter-spacing: -1px;
     margin-bottom: 1em;
   }
