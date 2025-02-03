@@ -43,37 +43,37 @@
   }
   .search-menu {
     .search-input {
-      border: 1px solid #ffc300 !important;
+      border: 1px solid #ffe591 !important;
       background: rgba(0, 0, 0, 0) !important;
-      color: #ffc300 !important;
+      color: #ffe591 !important;
       border-radius: 6px !important;
       input[type="text"] {
-        color: #ffc300 !important;
+        color: #ffe591 !important;
       }
       &::placeholder {
-        color: #ffc300 !important;
+        color: #ffe591 !important;
       }
       .d-icon {
-        color: #ffc300 !important;
+        color: #ffe591 !important;
       }
     }
     input[type="text"] {
       border-radius: 6px;
       min-height: 40px;
-      color: #ffc300 !important;
+      color: #ffe591 !important;
       &::placeholder {
-        color: #ffc300 !important;
+        color: #ffe591 !important;
       }
       &:focus {
         outline: 3px solid rgba(255, 195, 0, 0.35);
       }
     }
     .d-icon {
-      color: #ffc300 !important;
+      color: #ffe591 !important;
     }
     svg {
-      color: #ffc300 !important;
-      fill: #ffc300 !important;
+      color: #ffe591 !important;
+      fill: #ffe591 !important;
     }
   }
   .widget-link.show-help {
