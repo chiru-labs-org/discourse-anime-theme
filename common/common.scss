@@ -253,8 +253,9 @@
 }
 
 .category-logo .aspect-image {
-  width: 150px;
-  height: auto;
+  margin: 0 !important;
+  width: 150px !important;
+  height: auto !important;
 }
 
 .list-controls .combo-box .combo-box-header {
