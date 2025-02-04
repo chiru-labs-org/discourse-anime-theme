@@ -1,7 +1,31 @@
 @font-face {
   font-family: "Slussen";
-  src: url($Slussen) format("woff2");
-  font-weight: normal;
+  src: url($Slussen-Thin) format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Slussen";
+  src: url($Slussen-Regular) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Slussen";
+  src: url($Slussen-Medium) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Slussen";
+  src: url($Slussen-Bold) format("woff2");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -18,7 +42,7 @@
     font-style: normal;
     font-weight: 200;
     line-height: 140%; /* 177.249px */
-    letter-spacing: -6px;
+    letter-spacing: -4px;
     background: var(
       --text-gradient,
       linear-gradient(94deg, #fff 36.21%, #ffd85a 110.37%)
@@ -35,7 +59,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 56px */
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     margin-bottom: 1em;
   }
   .btn {
@@ -255,6 +279,11 @@ div.ac-wrap {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
 }
 
+.d-header #site-logo {
+  height: 35px !important;
+  width: auto !important;
+}
+
 .d-header-icons .d-icon {
   border-radius: 100px;
 }
@@ -387,7 +416,11 @@ html body #main-outlet {
     inset: -1px;
     border-radius: 30px;
     padding: 1px;
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.1), #ffedc0);
+    background: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 237, 192, 0.5)
+    );
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask: linear-gradient(#fff 0 0) content-box,
       linear-gradient(#fff 0 0);
@@ -697,24 +730,16 @@ html body #main-outlet {
   position: relative !important;
   background: #0b0b0a !important;
   box-shadow: 0px 4px 29px 0px rgba(0, 0, 0, 0.25) !important;
-
-  &::before {
-    content: "";
-    position: absolute;
-    inset: -1.5px;
-    border-radius: 21px;
-    padding: 3px;
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.1), #ffedc0);
-    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    -webkit-mask: linear-gradient(#fff 0 0) content-box,
-      linear-gradient(#fff 0 0);
-    mask-composite: exclude;
-    -webkit-mask-composite: xor;
-    pointer-events: none;
-  }
+  border: 1px solid rgba(255, 229, 145, 0.22) !important;
+  border-left-width: 1px !important;
 }
 
 .table-heading {
   color: #ffffff !important;
   border-bottom: 3px solid #ffffff !important;
+}
+
+.categories-list .category h3 {
+  font-family: Slussen;
+  font-weight: 500;
 }

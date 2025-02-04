@@ -8,7 +8,10 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "Slussen": "assets/Slussen-Thin.woff2"
+    "Slussen-Thin": "assets/Slussen-Thin.woff2",
+    "Slussen-Regular": "assets/Slussen-Regular.woff2",
+    "Slussen-Medium": "assets/Slussen-Medium.woff2",
+    "Slussen-Bold": "assets/Slussen-Bold.woff2"
   },
   "color_schemes": {
     "anime": {
